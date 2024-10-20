@@ -1,0 +1,174 @@
+/* Estilo para la barra de búsqueda */
+.search-bar {
+    border-radius: 50px;
+    border: 1px solid #000;
+    overflow: hidden;
+    width: 100%;
+    max-width: 800px;
+    margin-right: 1px; 
+}
+
+.search-bar input {
+    border: none;
+    outline: none;
+    width: 85%; 
+    padding: 12px 20px; 
+    font-size: 1.2rem; 
+}
+
+.search-bar button {
+    background-color: #FF5722; 
+    border: none;
+    border-radius: 50%;
+    padding: 5px 15px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 80px;
+
+}
+
+/* Estilo para el icono de búsqueda */
+.search-bar button img {
+    width: 20px;
+}
+
+/* Borde inferior del header */
+.header-border-bottom {
+    border-bottom: 1px solid grey;
+}
+
+/* Estilo del logo */
+.navbar-brand img {
+    width: 100px;
+    height: 100px;
+    margin-left: 100px;
+}
+
+/* Estilo de las imágenes de usuario */
+.navbar-nav .nav-link img {
+    width: 25px;
+    height: auto;
+    display: inline-block;
+}
+
+/* Espaciado para las opciones de usuario */
+.navbar-nav .nav-link {
+    margin-right: 30px;
+}
+
+/* Espaciado para las opciones de usuario */
+.navbar-nav .nav-link1 {
+    margin-right: 30px;
+}
+
+/* Espaciado para las opciones de usuario */
+.navbar-nav .nav-link2 {
+    margin-right: 30px;
+}
+
+/* Espaciado para las opciones de usuario */
+.navbar-nav .nav-link3 {
+    margin-right: 30px;
+}
+
+/* Ajustes del navbar */
+.navbar {
+    padding: 1rem 2rem;
+}
+
+/* Espaciado entre el botón y la barra de búsqueda */
+.search-bar input {
+    margin-right: 1px;
+}
+
+/* Estilo para la sección del cuadro */
+.promo-box {
+    background-color: #004225; 
+    border-radius: 15px; 
+    text-align: left; 
+    display: flex;
+    align-items: center; 
+    justify-content: space-between; 
+    padding: 80px 40px;
+    min-height: 500px;
+}
+
+.promo-text {
+    flex: 1;
+}
+
+/* Estilo para la imagen de la sección del cuadro */
+.promo-image img {
+    max-width: 300px; 
+    border-radius: 10px; 
+}
+
+.promo-image {
+    flex-shrink: 0; /* Evita que la imagen se reduzca demasiado */
+}
+/* Círculos de tendencias */
+.trend-circle {
+    width: 150px; 
+    height: 150px; 
+    border-radius: 50%; 
+    border: 2px solid #ccc; 
+    overflow: hidden;
+    transition: transform 0.3s ease; /* Animación suave al pasar el ratón */
+}
+
+.trend-circle img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    border-radius: 50%; 
+}
+
+.trend-circle:hover {
+    transform: scale(1.1); /* Efecto de zoom al pasar el ratón */
+    border-color: #FF5722; /* Cambia el color del borde al pasar el ratón */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.trend-title {
+    margin-top: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+}
+
+/*"Popular gifts" */
+.popular-gift-card {
+    border-radius: 10px; 
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+    border: 1px solid #ddd; 
+}
+
+.popular-gift-card img {
+    width: 100%; 
+    height: 200px; 
+    object-fit: cover; 
+}
+
+.popular-gift-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
+    border-color: #FF5722; 
+}
+
+.popular-gift-title {
+    margin-top: 10px;
+    font-size: 0.95rem;
+    color: #333;
+    text-align: center;
+}
+
+.popular-gift-price {
+    margin-top: 5px;
+    font-weight: bold;
+    color: #555;
+    text-align: center;
+}

@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etsy but it's a Pet Rock Joke</title>
+    <link rel="icon" href="images/EtsyApp.png" type="image/png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-white py-1 header-border-bottom">
+        <div class="container-fluid">
+            <!-- Logoa -->
+            <a class="navbar-brand d-flex align-items-center" href="#">
+                <img src="images/Etsy_logo.svg" alt="Logo" width="100" height="100" class="me-1">
+            </a>
+
+            <!-- Botón de menú en pantallas pequeñas -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Contenido de la navbar desplegable -->
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav me-auto d-flex align-items-center">
+                    <!-- Menú desplegable de categorías -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle d-flex align-items-center" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fas fa-bars me-1"></i> Categories
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Pet Rocks</a></li>
+                            <li><a class="dropdown-item" href="#">Evil Pet Rocks</a></li>
+                            <li><a class="dropdown-item" href="#">Minimalist Pet Rocks</a></li>
+                            <li><a class="dropdown-item" href="#">Cheap Pet Rocks</a></li>
+                        </ul>
+                    </li>
+                </ul>
+
+                <!-- Barra de búsqueda -->
+                <form class="d-flex mx-auto search-bar">
+                    <input class="form-control" type="search" placeholder="Search for Pet Rocks" aria-label="Search">
+                    <button class="btn btn-search" type="submit">
+                        <img src="images/search.svg" alt="Search" width="20"> 
+                    </button>
+                </form>
+
+                <!-- Opciones de usuario -->
+                <ul class="navbar-nav ms-auto d-flex align-items-center">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Sign in</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link1" href="#">
+                            <img src="images/heart.svg" alt="Favoritos" width="25"> 
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link2" href="#">
+                            <img src="images/gift.svg" alt="Regalos" width="25"> 
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link3" href="#">
+                            <img src="images/cart.svg" alt="Carrito" width="25"> 
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+<!-- Sección del cuadro debajo del header -->
+<div class="container-fluid my-5">
+    <div class="row justify-content-center">
+        <div class="col-md-10 col-lg-8">
+            <div class="promo-box p-5 text-white d-flex align-items-center">
+                <div class="promo-text">
+                    <span class="badge bg-success mb-3">Gift easy!</span>
+                    <h1>Find the perfect Pet Rock</h1>
+                    <h1>in just a few clicks!</h1>
+                    <p>Choose from our wide selection of Pet Rocks and make someone's day.</p>
+                    <a href="#" class="btn btn-light rounded-pill px-4">Start pet-rocking</a>
+                </div>
+                <!-- Imagen dentro del cuadro -->
+                <div class="promo-image ms-4">
+                    <img src="images/Rock1.png" alt="Pet Rock" class="img-fluid rounded">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <!-- Sección de tendencias -->
+    <div class="container my-5">
+        <h2 class="text-center mb-5">Discover the latest trends from small shops</h2>
+        <div class="row text-center">
+            <div class="col-2">
+                <img src="images/rock1.jpg" class="img-fluid rounded-circle mb-2 trend-circle" alt="Trend 1">
+                <p>Emo Rock Revival</p>
+            </div>
+            <div class="col-2">
+                <img src="images/rock2.jpg" class="img-fluid rounded-circle mb-2 trend-circle" alt="Trend 2">
+                <p>Yoga Rockers</p>
+            </div>
+            <div class="col-2">
+                <img src="images/rock3.jpg" class="img-fluid rounded-circle mb-2 trend-circle" alt="Trend 3">
+                <p>Cottagecore Pebbles</p>
+            </div>
+            <div class="col-2">
+                <img src="images/rock4.jpg" class="img-fluid rounded-circle mb-2 trend-circle" alt="Trend 4">
+                <p>Retro Disco Boulders</p>
+            </div>
+            <div class="col-2">
+                <img src="images/rock7.jpg" class="img-fluid rounded-circle mb-2 trend-circle" alt="Trend 5">
+                <p>Rocky Horror Fans</p>
+            </div>
+            <div class="col-2">
+                <img src="images/rock6.jpg" class="img-fluid rounded-circle mb-2 trend-circle" alt="Trend 6">
+                <p>Business Class Gravel</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Sección de categorías destacadas -->
+    <div class="container my-5">
+        <h2 class="text-center mb-5">Featured categories</h2>
+        <div class="row text-center">
+            <div class="col-md-3">
+                <img src="images/rock7.jpg" class="img-fluid mb-2" alt="Categoria 1">
+                <p>Fancy Fellas</p>
+            </div>
+            <div class="col-md-3">
+                <img src="images/rock8.jpg" class="img-fluid mb-2" alt="Categoria 2">
+                <p>Adventure Seekers</p>
+            </div>
+            <div class="col-md-3">
+                <img src="images/rock9.jpg" class="img-fluid mb-2" alt="Categoria 3">
+                <p>Cozy Companions</p>
+            </div>
+            <div class="col-md-3">
+                <img src="images/rock10.jpg" class="img-fluid mb-2" alt="Categoria 4">
+                <p>Quirky Collectibles</p>
+            </div>
+        </div>
+    </div>
+
+     <!-- Sección "Because you viewed" -->
+     <div class="container my-5">
+        <h5>Because you viewed: Pet Rock</h5>
+        <div class="row">
+            <div class="col-lg-6 mb-4">
+                <img src="images/rock1.jpg" class="img-fluid mb-2" alt="Producto grande">
+                <p>USD 5.99</p>
+            </div>
+            <div class="col-lg-6">
+                <div class="row">
+                    <div class="col-4 mb-4">
+                        <img src="images/rock10.jpg" class="img-fluid" alt="Producto pequeño 1">
+                        <p>USD 12.51</p>
+                    </div>
+                    <div class="col-4 mb-4">
+                        <img src="images/rock9.jpg" class="img-fluid" alt="Producto pequeño 2">
+                        <p>USD 1.75</p>
+                    </div>
+                    <div class="col-4 mb-4">
+                        <img src="images/rock8.jpg" class="img-fluid" alt="Producto pequeño 3">
+                        <p>USD 3.09</p>
+                    </div>
+                    <div class="col-4 mb-4">
+                        <img src="images/rock2.jpg" class="img-fluid" alt="Producto pequeño 4">
+                        <p>USD 4.63</p>
+                    </div>
+                    <div class="col-4 mb-4">
+                        <img src="images/rock6.jpg" class="img-fluid" alt="Producto pequeño 5">
+                        <p>USD 3.00</p>
+                    </div>
+                    <div class="col-4 mb-4">
+                        <img src="images/rock7.jpg" class="img-fluid" alt="Producto pequeño 6">
+                        <p>USD 4.00</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- Sección "Popular gifts right now" -->
+<div class="container my-5">
+    <h5>Popular gifts right now</h5>
+    <div class="row">
+        <div class="col-md-3">
+            <div class="popular-gift-card">
+                <img src="images/rock11.jpg" class="img-fluid mb-2" alt="Gift 1">
+            </div>
+            <p class="popular-gift-title">Pet Rock Bros</p>
+            <p class="popular-gift-price">USD 6.98</p>
+        </div>
+        <div class="col-md-3">
+            <div class="popular-gift-card">
+                <img src="images/rock5.jpg" class="img-fluid mb-2" alt="Gift 2">
+            </div>
+            <p class="popular-gift-title">Pet Rock #124</p>
+            <p class="popular-gift-price">USD 2.11</p>
+        </div>
+        <div class="col-md-3">
+            <div class="popular-gift-card">
+                <img src="images/rock12.jpg" class="img-fluid mb-2" alt="Gift 3">
+            </div>
+            <p class="popular-gift-title">Pet Rock Box Set</p>
+            <p class="popular-gift-price">USD 7.19</p>
+        </div>
+        <div class="col-md-3">
+            <div class="popular-gift-card">
+                <img src="images/rock4.jpg" class="img-fluid mb-2" alt="Gift 4">
+            </div>
+            <p class="popular-gift-title">Dumb Pet Rock</p>
+            <p class="popular-gift-price">USD 31.75</p>
+        </div>
+        <div class="col-md-3">
+            <div class="popular-gift-card">
+                <img src="images/rock2.jpg" class="img-fluid mb-2" alt="Gift 5">
+            </div>
+            <p class="popular-gift-title">Rock Pet (?)</p>
+            <p class="popular-gift-price">USD 13.63</p>
+        </div>
+    </div>
+</div>
+
+<!-- Sección de información adicional -->
+<div class="container my-5 py-5 bg-light text-center">
+    <h2>What is this?</h2>
+    <p><a href="#">Read our wonderfully weird story</a></p>
+    <div class="row mt-4">
+        <div class="col-md-4">
+            <h5>Why?</h5>
+            <p>I was bored and we were given the task of recreating a website that had already been made with bootstrap so I chose Etsy but I didn't feel like searching for each of the products, so I decided to search for an overwhelming amount of pet rocks.</p>
+        </div>
+        <div class="col-md-4">
+            <h5>Support independent rock creators</h5>
+            <p>There’s no Pet Rock warehouse - just millions of people selling their unique rock creations. We make the process easy, helping you connect directly with rock enthusiasts to find something extraordinary.</p>
+        </div>
+        <div class="col-md-4">
+            <h5>Peace of mind</h5>
+            <p>Your privacy is our top priority. If you ever need assistance, our dedicated team is always ready to step in for support.</p>
+        </div>
+    </div>
+    <div class="mt-5">
+        <p>If you are a monitor and found the idea funny, let me know.</p>
+        <a href="#" class="btn btn-outline-dark">Please don't give me a bad grade.</a>
+    </div>
+</div>
+
+<!-- Sección de suscripción -->
+<div class="container-fluid py-4 bg-info text-center">
+    <p>Yes! Send me exclusive offers, unique rock ideas, and personalized tips for adopting and caring for pet rocks.</p>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <form class="input-group">
+                    <input type="email" class="form-control" placeholder="Enter your email" aria-label="Email">
+                    <button class="btn btn-primary" type="submit">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Pie de página -->
+<footer class="bg-primary text-white py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 mb-3">
+                <h6>Pet Rock App</h6>
+                <img src="EtsyApp.png" alt="Pet Rock App" class="img-fluid mb-2" width="100">
+                <a href="#" class="btn btn-light mt-2">Download the Pet Rock App</a>
+            </div>
+            <div class="col-md-2">
+                <h6>Shop</h6>
+                <ul class="list-unstyled">
+                    <li><a href="#" class="text-white">Gift cards</a></li>
+                    <li><a href="#" class="text-white">Registry</a></li>
+                    <li><a href="#" class="text-white">Sitemap</a></li>
+                    <li><a href="#" class="text-white">Pet Rock blog</a></li>
+                    <li><a href="#" class="text-white">Adopt a Pet Rock</a></li>
+                </ul>
+            </div>
+            <div class="col-md-2">
+                <h6>About</h6>
+                <ul class="list-unstyled">
+                    <li><a href="#" class="text-white">What is a Pet Rock</a></li>
+                    <li><a href="#" class="text-white">Policies</a></li>
+                    <li><a href="#" class="text-white">Investors</a></li>
+                    <li><a href="#" class="text-white">Careers</a></li>
+                    <li><a href="#" class="text-white">Press</a></li>
+                </ul>
+            </div>
+            <div class="col-md-2">
+                <h6>Help</h6>
+                <ul class="list-unstyled">
+                    <li><a href="#" class="text-white">Help Center</a></li>
+                    <li><a href="#" class="text-white">Privacy settings</a></li>
+                    <li><a href="#" class="text-white">Terms of Use</a></li>
+                    <li><a href="#" class="text-white">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="col-md-2">
+                <h6>Follow Us</h6>
+                <ul class="list-unstyled d-flex">
+                    <li><a href="#" class="text-white me-3"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="#" class="text-white me-3"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="#" class="text-white me-3"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="#" class="text-white"><i class="fab fa-youtube"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="row mt-4">
+            <div class="col-md-12 text-center">
+                <p class="mb-0">&copy; 2024 William Bayona. No rights reserved. | <a href="#" class="text-white">Terms of Use</a> | <a href="#" class="text-white">Privacy</a></p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
